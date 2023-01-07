@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    background-image: url("../images/banner/banner3.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  
+}
+.header-container{
+   
+    margin: 0 200px;
+    text-align: right;
+    padding-top: 100px;
+    
+}
+.header-title{
+    
+    color: #FFFFFF;
+    font-weight:700;
+    font-size:50px;
+    line-height: 76px;
+    text-align: right;
+
+    
+}
+.header-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px; 
+    
+}
+.contact-bnt{
+    
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    color: blue;
+    margin-top: 30px;
+
+}
+/* main-container styles */
+.main-container{
+    margin: 0 200px;
+    margin-top: 130px;
+}
+.container{
+    display: flex;
+    margin-bottom: 130px ;
+    
+}
+.images-containt{
+    width: 569px;
+    height: 700px;
+    /* background-color: rgb(247, 223, 223); */
+    border-radius:50% ;
+    
+}
+.text-container{
+    margin-top: 200px;
+    margin-left: 8px;
+}
+.container-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 30px;
+    
+}
+.container-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+/* .description-list{
+    margin-top: 20px;
+    color: #444343;
+} */
+ul li{
+    margin-top: 10px;
+    color: #444343;
+    list-style: none;
+    margin-right: 100px;
+    
+}
+
+/* my plan section styles */
+.plan-sectiion{
+    margin:130px 200px;
+}
+.plan-hdr-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    
+}
+.all-section{
+    text-align: center;
+    width: 214px;
+    height: 197px;
+    margin-right: 20px;
+}
+.hdr-title{
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+.icon-size{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.page4-section{
+    margin: 0 200px;
+    margin-bottom: 130px;
+}
+.page4-container{
+    background-image: url("../images/watch.png"),url("../images/gradient2.png");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+
+
+
+    padding:40px;
+    border-radius: 10px;
+   
+
+}
+.page4-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.page4-bnt{
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    left: 294px;
+    top: 2398.96px;
+    border-radius:5px ;
+    border: 0;
+    font-size: 20px;
+}
+
+/* footer styles */
+.footer{
+    background-color: #151414; 
+    width: 1600px;
+    height: 577px;
+    padding: 130px 217px;
+    
+}
+.footer-container{
+    display: flex;
+}
+.container-one{
+    width: 485px;
+    height: 317px;
+}
+.ftr-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.ftr-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.ftr-email{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top:24px ;
+    margin-bottom:16px ;
+}
+.ftr-phn{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top:24px ;
+    margin-bottom:16px ;
+}
+
+/* subscrib styles */
+.subscrib{
+    width: 325px;
+    height: 204px;
+    margin-left: 230px;
+}
+.subs-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.inpt-mail{
+    width:250px ;
+    height: 50px;
+    background-color: #151414;;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.subs-btn{
+    width: 170.11px;
+    height: 64px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #005FAC;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: none;
+}
